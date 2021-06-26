@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xesextension name="BusinessObjects" prefix="attribute" uri="gs://shams_xes/business_object.xesext">
+	<trace>
+		<string key="bo_type">
+			<alias mapping="EN" name="Business Object type"/>
+		</string>
+	</trace>
+	
+	<event>
+	<string key="bo_type">
+			<alias mapping="EN" name="Business Object type"/>
+		</string>
+	<string key= "name">
+		<alias mapping="EN" name="Attribute Name"/>
+	</string>
+	<string key="requestID">
+		<alias mapping="EN" name= "Attribute Request ID"/>
+	</string>
+	<int key="rate">
+		<alias mapping="EN" name="Attribute Rate"/>
+	</int>
+	<float key="amount">
+		<alias mapping="EN" name= "Attribute Amount"/>
+	</float>
+	<string key= "status">
+		<alias mapping="EN" name= "Attribute Status">
+	</string>
+	</event>
+</xesextension>
+
+

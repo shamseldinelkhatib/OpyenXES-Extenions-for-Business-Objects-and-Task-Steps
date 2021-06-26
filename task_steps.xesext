@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xesextension name="TaskSteps" prefix="steps" uri="gs://shams_xes/task_steps.xesext">
+	<trace>
+		<string key="name">
+			<alias mapping="EN" name="Name"/>
+		</string>
+		<string key="corresponding_trace">
+			<alias mapping="EN" name="The original trace that the task trace corresponds to."/>
+		</string>
+		<int key="corresponding_event">
+			<alias mapping="EN" name="The original event that the task trace corresponds to."/>
+		</int>
+		<string key="mark">
+			<alias mapping="EN" name="Indicator to mark the trace as a Steps trace."/>
+		</string>
+	</trace>
+	
+	<event>
+	<string key= "taskname">
+		<alias mapping="EN" name="Task Name"/>
+	</string>
+	</event>
+</xesextension>
